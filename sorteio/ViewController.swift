@@ -19,7 +19,28 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
-
+    
+    
+    @IBOutlet weak var numeroGerado: UILabel!
+    
+    
+    @IBAction func gerarNumero(_ sender: Any) {
+        
+        //var numeroAleatorio: Int = 0
+        
+        // funcao arc4random_uniform(n)
+        // gera um numero aleatorio entre 0 e n-1
+        
+        numeroGerado.text = String(Int(arc4random_uniform(1000) + 1))
+        
+    }
+    
+    
+    
+    
+    
+    
 }
+
+
 

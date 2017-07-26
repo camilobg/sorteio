@@ -12,6 +12,9 @@
 		9A1598E81F28E968008452D7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A1598E61F28E968008452D7 /* Main.storyboard */; };
 		9A1598EA1F28E968008452D7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A1598E91F28E968008452D7 /* Assets.xcassets */; };
 		9A1598ED1F28E968008452D7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A1598EB1F28E968008452D7 /* LaunchScreen.storyboard */; };
+		9A1598F71F28EA79008452D7 /* botaogerar-pressionado.png in Resources */ = {isa = PBXBuildFile; fileRef = 9A1598F41F28EA79008452D7 /* botaogerar-pressionado.png */; };
+		9A1598F81F28EA79008452D7 /* botaogerar.png in Resources */ = {isa = PBXBuildFile; fileRef = 9A1598F51F28EA79008452D7 /* botaogerar.png */; };
+		9A1598F91F28EA79008452D7 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 9A1598F61F28EA79008452D7 /* logo.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		9A1598E91F28E968008452D7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9A1598EC1F28E968008452D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9A1598EE1F28E968008452D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A1598F41F28EA79008452D7 /* botaogerar-pressionado.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "botaogerar-pressionado.png"; sourceTree = "<group>"; };
+		9A1598F51F28EA79008452D7 /* botaogerar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = botaogerar.png; sourceTree = "<group>"; };
+		9A1598F61F28EA79008452D7 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +60,7 @@
 		9A1598E11F28E968008452D7 /* sorteio */ = {
 			isa = PBXGroup;
 			children = (
+				9A1598FA1F28EA83008452D7 /* imagens */,
 				9A1598E21F28E968008452D7 /* AppDelegate.swift */,
 				9A1598E41F28E968008452D7 /* ViewController.swift */,
 				9A1598E61F28E968008452D7 /* Main.storyboard */,
@@ -62,6 +69,16 @@
 				9A1598EE1F28E968008452D7 /* Info.plist */,
 			);
 			path = sorteio;
+			sourceTree = "<group>";
+		};
+		9A1598FA1F28EA83008452D7 /* imagens */ = {
+			isa = PBXGroup;
+			children = (
+				9A1598F61F28EA79008452D7 /* logo.png */,
+				9A1598F51F28EA79008452D7 /* botaogerar.png */,
+				9A1598F41F28EA79008452D7 /* botaogerar-pressionado.png */,
+			);
+			name = imagens;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,7 +142,10 @@
 			files = (
 				9A1598ED1F28E968008452D7 /* LaunchScreen.storyboard in Resources */,
 				9A1598EA1F28E968008452D7 /* Assets.xcassets in Resources */,
+				9A1598F91F28EA79008452D7 /* logo.png in Resources */,
+				9A1598F81F28EA79008452D7 /* botaogerar.png in Resources */,
 				9A1598E81F28E968008452D7 /* Main.storyboard in Resources */,
+				9A1598F71F28EA79008452D7 /* botaogerar-pressionado.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,6 +319,7 @@
 				9A1598F31F28E968008452D7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
