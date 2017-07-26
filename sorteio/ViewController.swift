@@ -26,8 +26,6 @@ class ViewController: UIViewController {
     
     @IBAction func gerarNumero(_ sender: Any) {
         
-        //var numeroAleatorio: Int = 0
-        
         // funcao arc4random_uniform(n)
         // gera um numero aleatorio entre 0 e n-1
         
